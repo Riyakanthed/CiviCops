@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "CiviCops",
+    "slug": "civicops",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#f5f7f7"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "CiviCops uses your location to place civic reports accurately."
+      }
+    },
+    "android": {
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION"
+      ],
+      "package": "org.civicops.app"
+    },
+    "plugins": [
+      "expo-secure-store",
+      "expo-asset"
+    ]
+  }
+}
